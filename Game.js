@@ -82,6 +82,7 @@ class Game {
       noStroke();
       fill("white");
       form.leaderboard(player.name,player.rank);
+      console.log("hello")
     }
 
     drawSprites();
