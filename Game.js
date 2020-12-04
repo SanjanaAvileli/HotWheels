@@ -45,7 +45,7 @@ class Game {
     if(allPlayers !== undefined){
       //var display_position = 130;
       background("#c68767");
-      image(track,0,-displayHeight*4,displayWidth,displayHeight*7);
+      image(track,0,-displayHeight*4,displayWidth,displayHeight*5);
       var index = 0;
       var x = 175;
       var y;
@@ -72,7 +72,7 @@ class Game {
       player.update();
     }
 
-    if(player.distance>2000){
+    if(player.distance>2500){
 
       gameState = 2;
       player.rank = player.rank+1;
