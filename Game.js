@@ -72,7 +72,7 @@ class Game {
       player.update();
     }
 
-    if(player.distance>3000){
+    if(player.distance>2000){
 
       gameState = 2;
       player.rank = player.rank+1;
