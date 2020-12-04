@@ -15,14 +15,14 @@ var cars = [];
 
 function preload(){
 
-image1 = loadImage("/Images/car1.png");
-image2 = loadImage("/Images/car2.png");
-image3 = loadImage("/Images/car3.png");
-image4 = loadImage("/Images/car4.png");
-track = loadImage("/Images/track.jpg");
-ground = loadImage("/Images/ground.png");
+image1 = loadImage("car1.png");
+image2 = loadImage("car2.png");
+image3 = loadImage("car3.png");
+image4 = loadImage("car4.png");
+track = loadImage("track.jpg");
+ground = loadImage("ground.png");
 
-bg = loadImage("/Images/Background.jpg");
+bg = loadImage("Background.jpg");
 }
 
 function setup(){
